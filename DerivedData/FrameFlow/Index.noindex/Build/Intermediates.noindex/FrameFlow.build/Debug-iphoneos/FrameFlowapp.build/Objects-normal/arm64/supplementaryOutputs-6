@@ -1,0 +1,10 @@
+{
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlowapp/ContentView.swift" : {
+    "abi-baseline-json" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp.abi.json",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp-primary.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp-primary.dia",
+    "objc-header" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp-Swift.h",
+    "swiftdoc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp.swiftdoc",
+    "swiftsourceinfo" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp.swiftsourceinfo"
+  }
+}

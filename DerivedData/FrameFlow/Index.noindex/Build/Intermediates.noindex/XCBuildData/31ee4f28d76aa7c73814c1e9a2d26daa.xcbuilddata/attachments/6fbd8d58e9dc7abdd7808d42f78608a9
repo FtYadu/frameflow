@@ -1,0 +1,22 @@
+{
+  "" : {
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphonesimulator/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp-primary.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphonesimulator/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp-primary.dia",
+    "emit-module-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphonesimulator/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphonesimulator/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp-primary-emit-module.dia",
+    "pch" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphonesimulator/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphonesimulator/FrameFlowapp.build/Objects-normal/arm64/FrameFlowapp-primary.swiftdeps"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphonesimulator/FrameFlowapp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlowapp/ContentView.swift" : {
+
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlowapp/FrameFlowappApp.swift" : {
+
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlowapp/Item.swift" : {
+
+  }
+}

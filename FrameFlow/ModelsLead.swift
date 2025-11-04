@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct Lead: Codable, Identifiable {
     let id: String

@@ -7,26 +7,29 @@
 
 import SwiftUI
 import SwiftData
+import UserNotifications
 
 @main
 struct FrameFlowApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
-
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
-
+    @StateObject private var authService = AuthService.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(authService)
+                .onAppear {
+                    requestNotificationPermission()
+                }
         }
-        .modelContainer(sharedModelContainer)
+    }
+    
+    private func requestNotificationPermission() {
+        UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .badge, .sound]) { granted, error in
+            if granted {
+                print("Notification permission granted")
+            } else if let error = error {
+                print("Notification permission error: \(error)")
+            }
+        }
     }
 }

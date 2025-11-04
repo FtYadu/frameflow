@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct AgentTask: Codable, Identifiable {
     let id: String

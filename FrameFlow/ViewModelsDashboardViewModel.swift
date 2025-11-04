@@ -60,10 +60,6 @@ class DashboardViewModel: ObservableObject {
         startAutoRefresh()
     }
     
-    deinit {
-        stopAutoRefresh()
-    }
-    
     // MARK: - Data Loading
     func loadDashboardData() async {
         guard !isRefreshing else { return }
@@ -93,7 +89,7 @@ class DashboardViewModel: ObservableObject {
             loadingState = .success
             
         } catch {
-            loadingState = .failure(error)
+            loadingState = .failure(error.localizedDescription)
             print("Dashboard loading error: \(error)")
         }
     }
@@ -209,8 +205,8 @@ class DashboardViewModel: ObservableObject {
     }
     
     var errorMessage: String? {
-        if case .failure(let error) = loadingState {
-            return error.localizedDescription
+        if case .failure(let message) = loadingState {
+            return message
         }
         return nil
     }

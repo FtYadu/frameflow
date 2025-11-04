@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 struct AppNotification: Codable, Identifiable {
     let id: String

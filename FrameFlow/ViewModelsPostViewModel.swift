@@ -46,8 +46,8 @@ class PostViewModel: ObservableObject {
     }
     
     var errorMessage: String? {
-        if case .failure(let error) = loadingState {
-            return error.localizedDescription
+        if case .failure(let message) = loadingState {
+            return message
         }
         return nil
     }
@@ -70,7 +70,7 @@ class PostViewModel: ObservableObject {
             posts = try await apiService.fetchPosts()
             loadingState = .success
         } catch {
-            loadingState = .failure(error)
+            loadingState = .failure(error.localizedDescription)
             print("Error loading posts: \(error)")
         }
     }

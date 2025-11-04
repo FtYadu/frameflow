@@ -91,4 +91,59 @@ class KeychainService {
         _ = delete(key: Config.authTokenKey)
         _ = delete(key: Config.refreshTokenKey)
     }
+    
+    // MARK: - AI API Key Management
+    func saveAPIKey(for provider: AIProvider, key: String) -> Bool {
+        return save(key: "api_key_\(provider.rawValue)", string: key)
+    }
+    
+    func getAPIKey(for provider: AIProvider) -> String? {
+        return loadString(key: "api_key_\(provider.rawValue)")
+    }
+    
+    func deleteAPIKey(for provider: AIProvider) -> Bool {
+        return delete(key: "api_key_\(provider.rawValue)")
+    }
+    
+    func getAllAPIKeys() -> [AIProvider: String] {
+        var apiKeys: [AIProvider: String] = [:]
+        
+        for provider in AIProvider.allCases {
+            if let key = getAPIKey(for: provider) {
+                apiKeys[provider] = key
+            }
+        }
+        
+        return apiKeys
+    }
+    
+    func clearAllAPIKeys() {
+        for provider in AIProvider.allCases {
+            _ = deleteAPIKey(for: provider)
+        }
+    }
+    
+    // MARK: - Agent AI Config Management
+    func saveAgentConfig(_ config: AgentAIConfig) -> Bool {
+        do {
+            let data = try JSONEncoder().encode(config)
+            return save(key: "agent_config_\(config.agentType)", data: data)
+        } catch {
+            return false
+        }
+    }
+    
+    func getAgentConfig(for agentType: String) -> AgentAIConfig? {
+        guard let data = load(key: "agent_config_\(agentType)") else { return nil }
+        
+        do {
+            return try JSONDecoder().decode(AgentAIConfig.self, from: data)
+        } catch {
+            return nil
+        }
+    }
+    
+    func deleteAgentConfig(for agentType: String) -> Bool {
+        return delete(key: "agent_config_\(agentType)")
+    }
 }

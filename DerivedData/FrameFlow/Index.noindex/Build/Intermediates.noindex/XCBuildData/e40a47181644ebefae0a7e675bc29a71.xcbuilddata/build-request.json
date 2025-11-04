@@ -1,0 +1,65 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "14c9a9cab8efb67642959cfc24723567749202d429484a67d399d64d6075a97c"
+    },
+    {
+      "guid" : "14c9a9cab8efb67642959cfc24723567fd70089b6ac6d868655c2f43d85d4f20"
+    },
+    {
+      "guid" : "14c9a9cab8efb67642959cfc247235678435a3a9f87ae47eaec65935b44a5b44"
+    },
+    {
+      "guid" : "14c9a9cab8efb67642959cfc24723567f2597bd9598a0340a1ead7a28ddc0a61"
+    },
+    {
+      "guid" : "14c9a9cab8efb67642959cfc2472356730b223b52d8de9054b1cb14e07a584a5"
+    },
+    {
+      "guid" : "14c9a9cab8efb67642959cfc24723567a680a431f9fc0dc8e2786ab6f7c95cfc"
+    }
+  ],
+  "containerPath" : "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/PrecompiledHeaders",
+      "indexRegularBuildIntermediatesPath" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex",
+      "indexRegularBuildProductsPath" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Products",
+      "pchPath" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "COMPILATION_CACHE_ENABLE_CACHING_DEFAULT" : "YES",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES",
+          "TOOLCHAINS" : "com.apple.dt.toolchain.Metal.32023 $(inherited)"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

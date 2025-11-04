@@ -14,7 +14,6 @@ class APIService: ObservableObject {
     private let session = URLSession.shared
     private let baseURL = Config.apiBaseURL
     private let keychain = KeychainService.shared
-    private var refreshTokenSubject = PassthroughSubject<String, Never>()
     
     private init() {}
     
@@ -125,6 +124,34 @@ class APIService: ObservableObject {
             keychain.clearTokens()
             return false
         }
+    }
+    
+    // MARK: - AI Provider Integration
+    func callAIProvider(
+        provider: AIProvider,
+        model: AIModel,
+        prompt: String,
+        temperature: Double = 0.7,
+        maxTokens: Int = 1000
+    ) async throws -> AIResponse {
+        guard let apiKey = keychain.getAPIKey(for: provider) else {
+            throw APIError.serverError("No API key found for \(provider.displayName)")
+        }
+        
+        let request = AIRequest(
+            provider: provider,
+            model: model,
+            prompt: prompt,
+            temperature: temperature,
+            maxTokens: maxTokens,
+            apiKey: apiKey
+        )
+        
+        return try await makeRequest(
+            endpoint: "/ai/generate",
+            method: .POST,
+            body: request
+        )
     }
 }
 
@@ -363,3 +390,33 @@ extension APIService {
 
 // MARK: - Helper Types
 struct EmptyResponse: Codable {}
+
+// MARK: - AI Integration Models
+struct AIRequest: Codable {
+    let provider: AIProvider
+    let model: AIModel
+    let prompt: String
+    let temperature: Double
+    let maxTokens: Int
+    let apiKey: String
+    
+    enum CodingKeys: String, CodingKey {
+        case provider, model, prompt, temperature
+        case maxTokens = "max_tokens"
+        case apiKey = "api_key"
+    }
+}
+
+struct AIResponse: Codable {
+    let response: String
+    let tokensUsed: Int
+    let cost: Double
+    let provider: AIProvider
+    let model: String
+    
+    enum CodingKeys: String, CodingKey {
+        case response
+        case tokensUsed = "tokens_used"
+        case cost, provider, model
+    }
+}

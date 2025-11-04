@@ -1,0 +1,13 @@
+{
+  "" : {
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowappTests.build/Objects-normal/arm64/FrameFlowappTests-primary.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowappTests.build/Objects-normal/arm64/FrameFlowappTests-primary.dia",
+    "emit-module-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowappTests.build/Objects-normal/arm64/FrameFlowappTests-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowappTests.build/Objects-normal/arm64/FrameFlowappTests-primary-emit-module.dia",
+    "pch" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowappTests.build/Objects-normal/arm64/FrameFlowappTests-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Index.noindex/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlowappTests.build/Objects-normal/arm64/FrameFlowappTests-primary.swiftdeps"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlowappTests/FrameFlowappTests.swift" : {
+
+  }
+}

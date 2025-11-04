@@ -125,16 +125,14 @@ struct HapticManager {
 }
 
 // MARK: - Loading State
-enum LoadingState {
+enum LoadingState: Equatable {
     case idle
     case loading
     case success
-    case failure(Error)
-    
+    case failure(String)
+
     var isLoading: Bool {
-        if case .loading = self {
-            return true
-        }
+        if case .loading = self { return true }
         return false
     }
 }

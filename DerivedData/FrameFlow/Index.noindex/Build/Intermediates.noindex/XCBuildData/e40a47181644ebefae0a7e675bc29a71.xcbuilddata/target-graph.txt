@@ -1,0 +1,25 @@
+Target dependency graph (16 targets)
+Target 'FrameFlowappUITests' in project 'FrameFlow' (no dependencies)
+Target 'FrameFlowappUITests' in project 'FrameFlow'
+➜ Explicit dependency on target 'FrameFlowapp' in project 'FrameFlow'
+Target 'FrameFlowappUITests' in project 'FrameFlow'
+➜ Explicit dependency on target 'FrameFlowapp' in project 'FrameFlow'
+Target 'FrameFlowappTests' in project 'FrameFlow' (no dependencies)
+Target 'FrameFlowappTests' in project 'FrameFlow'
+➜ Explicit dependency on target 'FrameFlowapp' in project 'FrameFlow'
+Target 'FrameFlowappTests' in project 'FrameFlow'
+➜ Explicit dependency on target 'FrameFlowapp' in project 'FrameFlow'
+Target 'FrameFlowapp' in project 'FrameFlow' (no dependencies)
+Target 'FrameFlowapp' in project 'FrameFlow' (no dependencies)
+Target 'FrameFlowUITests' in project 'FrameFlow' (no dependencies)
+Target 'FrameFlowUITests' in project 'FrameFlow'
+➜ Explicit dependency on target 'FrameFlow' in project 'FrameFlow'
+Target 'FrameFlowUITests' in project 'FrameFlow'
+➜ Explicit dependency on target 'FrameFlow' in project 'FrameFlow'
+Target 'FrameFlowTests' in project 'FrameFlow' (no dependencies)
+Target 'FrameFlowTests' in project 'FrameFlow'
+➜ Explicit dependency on target 'FrameFlow' in project 'FrameFlow'
+Target 'FrameFlowTests' in project 'FrameFlow'
+➜ Explicit dependency on target 'FrameFlow' in project 'FrameFlow'
+Target 'FrameFlow' in project 'FrameFlow' (no dependencies)
+Target 'FrameFlow' in project 'FrameFlow' (no dependencies)

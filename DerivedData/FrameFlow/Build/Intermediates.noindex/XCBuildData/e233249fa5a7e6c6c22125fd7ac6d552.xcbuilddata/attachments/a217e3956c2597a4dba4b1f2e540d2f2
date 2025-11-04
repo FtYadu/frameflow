@@ -1,0 +1,389 @@
+{
+  "" : {
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlow-primary.dia",
+    "emit-module-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlow-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlow-primary-emit-module.dia",
+    "pch" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlow-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlow-primary.swiftdeps"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ContentView.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/FrameFlowApp.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlowApp.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlowApp.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlowApp.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlowApp.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlowApp.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlowApp.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlowApp.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/FrameFlowApp~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/Item.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/Item.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/Item.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/Item.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/Item.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/Item.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/Item.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/Item.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/Item~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ModelsAIProvider.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAIProvider.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAIProvider.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAIProvider.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAIProvider.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAIProvider.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAIProvider.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAIProvider.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAIProvider~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ModelsAgent.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgent.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgent.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgent.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgent.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgent.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgent.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgent.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgent~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ModelsAgentTask.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgentTask.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgentTask.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgentTask.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgentTask.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgentTask.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgentTask.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgentTask.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsAgentTask~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ModelsLead.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsLead.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsLead.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsLead.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsLead.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsLead.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsLead.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsLead.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsLead~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ModelsNotification.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsNotification.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsNotification.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsNotification.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsNotification.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsNotification.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsNotification.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsNotification.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsNotification~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ModelsPost.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsPost.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsPost.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsPost.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsPost.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsPost.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsPost.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsPost.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsPost~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ModelsUser.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsUser.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsUser.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsUser.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsUser.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsUser.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsUser.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsUser.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ModelsUser~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ServicesAPIError.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIError.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIError.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIError.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIError.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIError.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIError.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIError.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIError~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ServicesAPIService.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIService.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIService.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIService.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIService.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIService.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIService.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIService.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAPIService~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ServicesAuthService 2.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService 2.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService 2.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService 2.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService 2.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService 2.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService 2.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService 2.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService 2~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ServicesAuthService.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesAuthService~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ServicesKeychainService.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesKeychainService.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesKeychainService.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesKeychainService.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesKeychainService.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesKeychainService.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesKeychainService.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesKeychainService.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesKeychainService~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ServicesNotificationService.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesNotificationService.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesNotificationService.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesNotificationService.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesNotificationService.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesNotificationService.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesNotificationService.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesNotificationService.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ServicesNotificationService~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/UtilsConfig.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConfig.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConfig.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConfig.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConfig.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConfig.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConfig.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConfig.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConfig~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/UtilsConstants 2.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants 2.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants 2.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants 2.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants 2.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants 2.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants 2.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants 2.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants 2~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/UtilsConstants.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsConstants~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/UtilsExtensions 2.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions 2.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions 2.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions 2.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions 2.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions 2.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions 2.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions 2.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions 2~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/UtilsExtensions.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/UtilsExtensions~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewModelsAuthViewModel.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsAuthViewModel.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsAuthViewModel.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsAuthViewModel.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsAuthViewModel.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsAuthViewModel.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsAuthViewModel.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsAuthViewModel.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsAuthViewModel~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewModelsDashboardViewModel.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsDashboardViewModel.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsDashboardViewModel.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsDashboardViewModel.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsDashboardViewModel.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsDashboardViewModel.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsDashboardViewModel.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsDashboardViewModel.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsDashboardViewModel~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewModelsLeadViewModel.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsLeadViewModel.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsLeadViewModel.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsLeadViewModel.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsLeadViewModel.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsLeadViewModel.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsLeadViewModel.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsLeadViewModel.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsLeadViewModel~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewModelsPostViewModel.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsPostViewModel.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsPostViewModel.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsPostViewModel.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsPostViewModel.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsPostViewModel.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsPostViewModel.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsPostViewModel.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewModelsPostViewModel~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsAuthLoginView 2.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView 2.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView 2.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView 2.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView 2.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView 2.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView 2.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView 2.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView 2~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsAuthLoginView.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsAuthLoginView~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsDashboardAgentCardView.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardAgentCardView.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardAgentCardView.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardAgentCardView.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardAgentCardView.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardAgentCardView.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardAgentCardView.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardAgentCardView.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardAgentCardView~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsDashboardDashboardView 2.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView 2.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView 2.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView 2.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView 2.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView 2.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView 2.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView 2.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView 2~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsDashboardDashboardView.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardDashboardView~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsDashboardStatsCardView.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardStatsCardView.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardStatsCardView.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardStatsCardView.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardStatsCardView.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardStatsCardView.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardStatsCardView.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardStatsCardView.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsDashboardStatsCardView~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsLeadsLeadsListView.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsLeadsLeadsListView.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsLeadsLeadsListView.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsLeadsLeadsListView.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsLeadsLeadsListView.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsLeadsLeadsListView.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsLeadsLeadsListView.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsLeadsLeadsListView.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsLeadsLeadsListView~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsNotificationsNotificationsView.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsNotificationsNotificationsView.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsNotificationsNotificationsView.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsNotificationsNotificationsView.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsNotificationsNotificationsView.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsNotificationsNotificationsView.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsNotificationsNotificationsView.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsNotificationsNotificationsView.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsNotificationsNotificationsView~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsPostsPostComposerView.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsPostsPostComposerView.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsPostsPostComposerView.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsPostsPostComposerView.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsPostsPostComposerView.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsPostsPostComposerView.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsPostsPostComposerView.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsPostsPostComposerView.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsPostsPostComposerView~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsSettingsAISettingsView.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSettingsAISettingsView.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSettingsAISettingsView.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSettingsAISettingsView.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSettingsAISettingsView.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSettingsAISettingsView.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSettingsAISettingsView.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSettingsAISettingsView.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSettingsAISettingsView~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsSharedComponents.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSharedComponents.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSharedComponents.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSharedComponents.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSharedComponents.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSharedComponents.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSharedComponents.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSharedComponents.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsSharedComponents~partial.swiftmodule"
+  },
+  "/Users/lmtd/AI/FrameFlow/FrameFlow/FrameFlow/ViewsTasksTaskRowView.swift" : {
+    "const-values" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsTasksTaskRowView.swiftconstvalues",
+    "dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsTasksTaskRowView.d",
+    "diagnostics" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsTasksTaskRowView.dia",
+    "index-unit-output-path" : "/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsTasksTaskRowView.o",
+    "llvm-bc" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsTasksTaskRowView.bc",
+    "object" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsTasksTaskRowView.o",
+    "swift-dependencies" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsTasksTaskRowView.swiftdeps",
+    "swiftmodule" : "/Users/lmtd/AI/FrameFlow/FrameFlow/DerivedData/FrameFlow/Build/Intermediates.noindex/FrameFlow.build/Debug-iphoneos/FrameFlow.build/Objects-normal/arm64/ViewsTasksTaskRowView~partial.swiftmodule"
+  }
+}

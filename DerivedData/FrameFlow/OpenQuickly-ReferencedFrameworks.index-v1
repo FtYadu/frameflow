@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>SwiftData</string>
+	<string>SwiftUI</string>
+	<string>FrameFlow</string>
+	<string>UserNotifications</string>
+	<string>XCTest</string>
+	<string>Testing</string>
+	<string>PhotosUI</string>
+	<string>Security</string>
+	<string>UIKit</string>
+	<string>Combine</string>
+	<string>Foundation</string>
+</array>
+</plist>
