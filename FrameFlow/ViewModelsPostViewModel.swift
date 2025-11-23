@@ -17,7 +17,9 @@ class PostViewModel: ObservableObject {
     @Published var loadingState: LoadingState = .idle
     @Published var isCreatingPost = false
     @Published var isGeneratingCaption = false
-    
+    @Published var searchText: String = ""
+    @Published var filterStatus: PostStatus? = nil
+
     // Post creation form
     @Published var caption = ""
     @Published var hashtags = ""
@@ -25,18 +27,38 @@ class PostViewModel: ObservableObject {
     @Published var imageURL: String?
     @Published var scheduledDate: Date = Date().addingTimeInterval(3600) // 1 hour from now
     @Published var shouldSchedule = false
-    
+
     private let apiService = APIService.shared
-    
+
     // MARK: - Computed Properties
+    var filteredPosts: [Post] {
+        var filtered = posts
+
+        // Filter by status
+        if let filterStatus = filterStatus {
+            filtered = filtered.filter { $0.postStatus == filterStatus }
+        }
+
+        // Filter by search text
+        if !searchText.isEmpty {
+            filtered = filtered.filter { post in
+                (post.caption?.localizedCaseInsensitiveContains(searchText) ?? false) ||
+                post.hashtagString.localizedCaseInsensitiveContains(searchText) ||
+                post.platform.localizedCaseInsensitiveContains(searchText)
+            }
+        }
+
+        return filtered
+    }
+
     var draftPosts: [Post] {
         return posts.filter { $0.postStatus == .draft }
     }
-    
+
     var scheduledPosts: [Post] {
         return posts.filter { $0.postStatus == .scheduled }
     }
-    
+
     var publishedPosts: [Post] {
         return posts.filter { $0.postStatus == .published }
     }

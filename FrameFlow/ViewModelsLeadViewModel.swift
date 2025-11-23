@@ -14,15 +14,30 @@ class LeadViewModel: ObservableObject {
     @Published var selectedLead: Lead?
     @Published var loadingState: LoadingState = .idle
     @Published var filterStatus: LeadStatus? = nil
-    
+    @Published var searchText: String = ""
+
     private let apiService = APIService.shared
-    
+
     // MARK: - Computed Properties
     var filteredLeads: [Lead] {
+        var filtered = leads
+
+        // Filter by status
         if let filterStatus = filterStatus {
-            return leads.filter { $0.leadStatus == filterStatus }
+            filtered = filtered.filter { $0.leadStatus == filterStatus }
         }
-        return leads
+
+        // Filter by search text
+        if !searchText.isEmpty {
+            filtered = filtered.filter { lead in
+                lead.displayName.localizedCaseInsensitiveContains(searchText) ||
+                (lead.instagramHandle?.localizedCaseInsensitiveContains(searchText) ?? false) ||
+                (lead.contactEmail?.localizedCaseInsensitiveContains(searchText) ?? false) ||
+                lead.source.localizedCaseInsensitiveContains(searchText)
+            }
+        }
+
+        return filtered
     }
     
     var isLoading: Bool {

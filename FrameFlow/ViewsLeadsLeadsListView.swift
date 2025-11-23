@@ -9,7 +9,6 @@ import SwiftUI
 
 struct LeadsListView: View {
     @StateObject private var viewModel = LeadViewModel()
-    @State private var selectedFilter: LeadStatus? = nil
     @State private var showingLeadDetail = false
     
     var body: some View {
@@ -20,10 +19,13 @@ struct LeadsListView: View {
                 VStack(spacing: 0) {
                     // Stats Header
                     statsHeader
-                    
+
+                    // Search Bar
+                    searchBar
+
                     // Filter Chips
                     filterSection
-                    
+
                     // Leads List
                     leadsList
                 }
@@ -55,22 +57,47 @@ struct LeadsListView: View {
         .padding(.horizontal, AppSpacing.md)
         .padding(.vertical, AppSpacing.sm)
     }
-    
+
+    // MARK: - Search Bar
+    private var searchBar: some View {
+        HStack(spacing: AppSpacing.sm) {
+            Image(systemName: "magnifyingglass")
+                .foregroundColor(AppColors.textSecondary)
+
+            TextField("Search leads...", text: $viewModel.searchText)
+                .foregroundColor(AppColors.textPrimary)
+
+            if !viewModel.searchText.isEmpty {
+                Button(action: {
+                    viewModel.searchText = ""
+                }) {
+                    Image(systemName: "xmark.circle.fill")
+                        .foregroundColor(AppColors.textSecondary)
+                }
+            }
+        }
+        .padding(AppSpacing.md)
+        .background(AppColors.surface)
+        .cornerRadius(CornerRadius.medium)
+        .padding(.horizontal, AppSpacing.md)
+        .padding(.vertical, AppSpacing.xs)
+    }
+
     // MARK: - Filter Section
     private var filterSection: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: AppSpacing.sm) {
                 FilterChip(
                     title: "All",
-                    isSelected: selectedFilter == nil,
-                    onTap: { selectedFilter = nil }
+                    isSelected: viewModel.filterStatus == nil,
+                    onTap: { viewModel.filterStatus = nil }
                 )
-                
+
                 ForEach(LeadStatus.allCases, id: \.self) { status in
                     FilterChip(
                         title: status.displayName,
-                        isSelected: selectedFilter == status,
-                        onTap: { selectedFilter = status }
+                        isSelected: viewModel.filterStatus == status,
+                        onTap: { viewModel.filterStatus = status }
                     )
                 }
             }
@@ -281,10 +308,14 @@ struct StatusBadge: View {
 struct LeadDetailView: View {
     let lead: Lead
     let onDismiss: () -> Void
-    
+
     @State private var outreachMessage = ""
     @State private var selectedPlatform = "instagram"
     @State private var isSendingOutreach = false
+    @State private var errorMessage: String?
+    @State private var showError = false
+
+    private let apiService = APIService.shared
     
     var body: some View {
         NavigationView {
@@ -317,6 +348,11 @@ struct LeadDetailView: View {
                         onDismiss()
                     }
                 }
+            }
+            .alert("Error Sending Outreach", isPresented: $showError) {
+                Button("OK", role: .cancel) { }
+            } message: {
+                Text(errorMessage ?? "An unknown error occurred")
             }
         }
     }
@@ -436,13 +472,26 @@ struct LeadDetailView: View {
     }
     
     private func sendOutreach() {
-        // TODO: Implement outreach sending
         isSendingOutreach = true
-        
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-            isSendingOutreach = false
-            HapticManager.notification(.success)
-            onDismiss()
+        errorMessage = nil
+
+        Task {
+            do {
+                try await apiService.sendOutreach(
+                    leadId: lead.id,
+                    message: outreachMessage,
+                    platform: selectedPlatform
+                )
+
+                isSendingOutreach = false
+                HapticManager.notification(.success)
+                onDismiss()
+            } catch {
+                isSendingOutreach = false
+                errorMessage = error.localizedDescription
+                showError = true
+                HapticManager.notification(.error)
+            }
         }
     }
 }

@@ -10,13 +10,55 @@ import Combine
 
 class APIService: ObservableObject {
     static let shared = APIService()
-    
+
     private let session = URLSession.shared
     private let baseURL = Config.apiBaseURL
     private let keychain = KeychainService.shared
-    
+
+    // Retry configuration
+    private let maxRetries = 3
+    private let retryDelay: UInt64 = 1_000_000_000 // 1 second in nanoseconds
+
     private init() {}
-    
+
+    // MARK: - Retry Helper
+    private func retryWithBackoff<T>(
+        maxAttempts: Int = 3,
+        operation: @escaping () async throws -> T
+    ) async throws -> T {
+        var lastError: Error?
+        var delay: UInt64 = retryDelay
+
+        for attempt in 1...maxAttempts {
+            do {
+                return try await operation()
+            } catch let error as APIError {
+                lastError = error
+
+                // Don't retry for certain errors
+                switch error {
+                case .unauthorized, .invalidURL, .decodingError:
+                    throw error
+                case .serverError(_), .networkError, .unknown:
+                    if attempt < maxAttempts {
+                        print("API request failed (attempt \(attempt)/\(maxAttempts)), retrying in \(delay / 1_000_000_000)s...")
+                        try? await Task.sleep(nanoseconds: delay)
+                        delay *= 2 // Exponential backoff
+                    }
+                }
+            } catch {
+                lastError = error
+                if attempt < maxAttempts {
+                    print("Request failed (attempt \(attempt)/\(maxAttempts)), retrying...")
+                    try? await Task.sleep(nanoseconds: delay)
+                    delay *= 2
+                }
+            }
+        }
+
+        throw lastError ?? APIError.unknown
+    }
+
     // MARK: - Generic Request Method
     private func makeRequest<T: Codable>(
         endpoint: String,
@@ -217,7 +259,9 @@ extension APIService {
 // MARK: - Agent Methods
 extension APIService {
     func fetchAgents() async throws -> [Agent] {
-        return try await makeRequest(endpoint: "/agents")
+        return try await retryWithBackoff {
+            try await self.makeRequest(endpoint: "/agents")
+        }
     }
     
     func fetchAgent(type: String) async throws -> Agent {
@@ -254,7 +298,9 @@ extension APIService {
 // MARK: - Task Methods
 extension APIService {
     func fetchTasks() async throws -> [AgentTask] {
-        return try await makeRequest(endpoint: "/tasks")
+        return try await retryWithBackoff {
+            try await self.makeRequest(endpoint: "/tasks")
+        }
     }
     
     func fetchTask(id: String) async throws -> AgentTask {
@@ -281,7 +327,9 @@ extension APIService {
 // MARK: - Lead Methods
 extension APIService {
     func fetchLeads() async throws -> [Lead] {
-        return try await makeRequest(endpoint: "/leads")
+        return try await retryWithBackoff {
+            try await self.makeRequest(endpoint: "/leads")
+        }
     }
     
     func fetchLead(id: String) async throws -> Lead {
@@ -310,7 +358,9 @@ extension APIService {
 // MARK: - Post Methods
 extension APIService {
     func fetchPosts() async throws -> [Post] {
-        return try await makeRequest(endpoint: "/posts")
+        return try await retryWithBackoff {
+            try await self.makeRequest(endpoint: "/posts")
+        }
     }
     
     func createPost(caption: String?, imageUrl: String?, hashtags: [String], platform: String = "instagram", scheduledFor: Date? = nil) async throws -> Post {
@@ -376,7 +426,9 @@ extension APIService {
 // MARK: - Notification Methods
 extension APIService {
     func fetchNotifications() async throws -> [AppNotification] {
-        return try await makeRequest(endpoint: "/notifications")
+        return try await retryWithBackoff {
+            try await self.makeRequest(endpoint: "/notifications")
+        }
     }
     
     func markNotificationAsRead(id: String) async throws -> AppNotification {
