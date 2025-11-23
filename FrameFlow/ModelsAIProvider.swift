@@ -122,7 +122,8 @@ struct AgentAIConfig: Codable {
     init(agentType: String, provider: AIProvider = .anthropic, model: AIModel? = nil, temperature: Double = 0.7, maxTokens: Int = 1000) {
         self.agentType = agentType
         self.provider = provider
-        self.model = model ?? provider.models.first!
+        // Use provided model or fallback to first available model, with a final fallback to a default model
+        self.model = model ?? provider.models.first ?? AIModel(id: "claude-3-5-sonnet-20241022", name: "Claude 3.5 Sonnet", costPer1K: 0.003)
         self.temperature = temperature
         self.maxTokens = maxTokens
     }

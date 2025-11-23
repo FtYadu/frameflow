@@ -437,10 +437,10 @@ struct PostRowView: View {
                     .font(AppFonts.body)
                     .foregroundColor(AppColors.textPrimary)
                     .lineLimit(2)
-                
+
                 Spacer()
-                
-                StatusBadge(status: post.postStatus ?? .draft)
+
+                PostStatusBadge(status: post.postStatus ?? .draft)
             }
             
             if !post.hashtags.isEmpty {
@@ -473,9 +473,18 @@ struct PostRowView: View {
     }
 }
 
-extension StatusBadge {
-    init(status: PostStatus) {
-        self.init(status: LeadStatus.new) // Placeholder - in real app, create PostStatusBadge
+// MARK: - Post Status Badge
+struct PostStatusBadge: View {
+    let status: PostStatus
+
+    var body: some View {
+        Text(status.displayName)
+            .font(.caption2)
+            .foregroundColor(.white)
+            .padding(.horizontal, AppSpacing.sm)
+            .padding(.vertical, 2)
+            .background(status.color)
+            .cornerRadius(8)
     }
 }
 

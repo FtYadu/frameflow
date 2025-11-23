@@ -350,10 +350,11 @@ extension APIService {
     }
     
     func schedulePost(id: String, scheduledFor: Date) async throws -> Post {
+        let request = SchedulePostRequest(scheduledFor: scheduledFor)
         return try await makeRequest(
             endpoint: "/posts/\(id)/schedule",
             method: .POST,
-            body: ["scheduled_for": scheduledFor]
+            body: request
         )
     }
     

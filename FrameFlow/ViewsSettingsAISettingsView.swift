@@ -444,7 +444,7 @@ struct ModelPickerView: View {
                                     isSelected: selectedProvider == provider,
                                     onSelect: {
                                         selectedProvider = provider
-                                        selectedModel = provider.models.first!
+                                        selectedModel = provider.models.first ?? AIModel(id: "claude-3-5-sonnet-20241022", name: "Claude 3.5 Sonnet", costPer1K: 0.003)
                                     }
                                 )
                             }
@@ -736,7 +736,7 @@ class AISettingsViewModel: ObservableObject {
         
         // Use the most common provider/model for display
         let commonProvider = agentConfigs.values.first?.provider ?? .anthropic
-        let commonModel = agentConfigs.values.first?.model ?? commonProvider.models.first!
+        let commonModel = agentConfigs.values.first?.model ?? (commonProvider.models.first ?? AIModel(id: "claude-3-5-sonnet-20241022", name: "Claude 3.5 Sonnet", costPer1K: 0.003))
         
         monthlyEstimate = MonthlyCostEstimate(
             provider: commonProvider,
