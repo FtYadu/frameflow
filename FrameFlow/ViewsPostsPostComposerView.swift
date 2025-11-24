@@ -333,17 +333,19 @@ struct CaptionGeneratorView: View {
 struct PostsListView: View {
     @StateObject private var viewModel = PostViewModel()
     @State private var showingComposer = false
-    @State private var selectedFilter: PostStatus? = nil
-    
+
     var body: some View {
         NavigationView {
             ZStack {
                 AppColors.background.ignoresSafeArea()
-                
-                VStack {
+
+                VStack(spacing: 0) {
+                    // Search Bar
+                    searchBar
+
                     // Filter tabs
                     filterTabs
-                    
+
                     // Posts list
                     postsList
                 }
@@ -370,26 +372,51 @@ struct PostsListView: View {
             }
         }
     }
-    
+
+    private var searchBar: some View {
+        HStack(spacing: AppSpacing.sm) {
+            Image(systemName: "magnifyingglass")
+                .foregroundColor(AppColors.textSecondary)
+
+            TextField("Search posts...", text: $viewModel.searchText)
+                .foregroundColor(AppColors.textPrimary)
+
+            if !viewModel.searchText.isEmpty {
+                Button(action: {
+                    viewModel.searchText = ""
+                }) {
+                    Image(systemName: "xmark.circle.fill")
+                        .foregroundColor(AppColors.textSecondary)
+                }
+            }
+        }
+        .padding(AppSpacing.md)
+        .background(AppColors.surface)
+        .cornerRadius(CornerRadius.medium)
+        .padding(.horizontal, AppSpacing.md)
+        .padding(.vertical, AppSpacing.xs)
+    }
+
     private var filterTabs: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: AppSpacing.sm) {
                 FilterChip(
                     title: "All",
-                    isSelected: selectedFilter == nil,
-                    onTap: { selectedFilter = nil }
+                    isSelected: viewModel.filterStatus == nil,
+                    onTap: { viewModel.filterStatus = nil }
                 )
-                
+
                 ForEach(PostStatus.allCases, id: \.self) { status in
                     FilterChip(
                         title: status.displayName,
-                        isSelected: selectedFilter == status,
-                        onTap: { selectedFilter = status }
+                        isSelected: viewModel.filterStatus == status,
+                        onTap: { viewModel.filterStatus = status }
                     )
                 }
             }
             .padding(.horizontal, AppSpacing.md)
         }
+        .padding(.bottom, AppSpacing.sm)
     }
     
     private var postsList: some View {
@@ -399,16 +426,16 @@ struct PostsListView: View {
                     .progressViewStyle(CircularProgressViewStyle(tint: AppColors.primary))
                     .scaleEffect(1.5)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
-            } else if filteredPosts.isEmpty {
+            } else if viewModel.filteredPosts.isEmpty {
                 EmptyStateView(
                     icon: "square.and.pencil",
                     title: "No Posts",
-                    message: "Create your first post to get started"
+                    message: searchText.isEmpty ? "Create your first post to get started" : "No posts match your search"
                 )
             } else {
                 ScrollView {
                     LazyVStack(spacing: AppSpacing.sm) {
-                        ForEach(filteredPosts) { post in
+                        ForEach(viewModel.filteredPosts) { post in
                             PostRowView(post: post)
                         }
                     }
@@ -417,12 +444,9 @@ struct PostsListView: View {
             }
         }
     }
-    
-    private var filteredPosts: [Post] {
-        if let selectedFilter = selectedFilter {
-            return viewModel.posts.filter { $0.postStatus == selectedFilter }
-        }
-        return viewModel.posts
+
+    private var searchText: String {
+        return viewModel.searchText
     }
 }
 
@@ -437,10 +461,10 @@ struct PostRowView: View {
                     .font(AppFonts.body)
                     .foregroundColor(AppColors.textPrimary)
                     .lineLimit(2)
-                
+
                 Spacer()
-                
-                StatusBadge(status: post.postStatus ?? .draft)
+
+                PostStatusBadge(status: post.postStatus ?? .draft)
             }
             
             if !post.hashtags.isEmpty {
@@ -473,9 +497,18 @@ struct PostRowView: View {
     }
 }
 
-extension StatusBadge {
-    init(status: PostStatus) {
-        self.init(status: LeadStatus.new) // Placeholder - in real app, create PostStatusBadge
+// MARK: - Post Status Badge
+struct PostStatusBadge: View {
+    let status: PostStatus
+
+    var body: some View {
+        Text(status.displayName)
+            .font(.caption2)
+            .foregroundColor(.white)
+            .padding(.horizontal, AppSpacing.sm)
+            .padding(.vertical, 2)
+            .background(status.color)
+            .cornerRadius(8)
     }
 }
 

@@ -115,3 +115,12 @@ struct GenerateCaptionResponse: Codable {
     let caption: String
     let hashtags: [String]
 }
+
+// MARK: - Schedule Post
+struct SchedulePostRequest: Codable {
+    let scheduledFor: Date
+
+    enum CodingKeys: String, CodingKey {
+        case scheduledFor = "scheduled_for"
+    }
+}

@@ -72,7 +72,18 @@ extension View {
                     .stroke(AppColors.divider, lineWidth: 1)
             )
     }
-    
+
+    func glassmorphismCard() -> some View {
+        self
+            .background(AppColors.cardBackground.opacity(0.8))
+            .cornerRadius(CornerRadius.medium)
+            .overlay(
+                RoundedRectangle(cornerRadius: CornerRadius.medium)
+                    .stroke(Color.white.opacity(0.1), lineWidth: 1)
+            )
+            .shadow(color: Color.black.opacity(0.2), radius: 10, x: 0, y: 4)
+    }
+
     func hideKeyboard() {
         UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)
     }
