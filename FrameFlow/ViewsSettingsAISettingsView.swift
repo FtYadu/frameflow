@@ -615,21 +615,7 @@ struct UsageStatsRow: View {
     }
 }
 
-// MARK: - Custom Text Field Style
-struct CustomTextFieldStyle: TextFieldStyle {
-    func _body(configuration: TextField<Self._Label>) -> some View {
-        configuration
-            .foregroundColor(AppColors.textPrimary)
-            .padding(.horizontal, AppSpacing.md)
-            .padding(.vertical, AppSpacing.md)
-            .background(AppColors.surface)
-            .cornerRadius(CornerRadius.medium)
-            .overlay(
-                RoundedRectangle(cornerRadius: CornerRadius.medium)
-                    .stroke(AppColors.divider, lineWidth: 1)
-            )
-    }
-}
+// CustomTextFieldStyle is defined in ViewsAuthLoginView.swift
 
 // MARK: - AI Settings ViewModel
 @MainActor
