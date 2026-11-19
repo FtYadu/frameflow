@@ -142,3 +142,8 @@ package-lock.json
 *.mobileprovision
 secrets.json
 credentials.json
+
+# Backend
+backend/node_modules/
+backend/uploads/
+backend/.env

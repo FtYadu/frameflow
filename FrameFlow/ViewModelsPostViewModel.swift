@@ -27,6 +27,8 @@ class PostViewModel: ObservableObject {
     @Published var imageURL: String?
     @Published var scheduledDate: Date = Date().addingTimeInterval(3600) // 1 hour from now
     @Published var shouldSchedule = false
+    @Published var isUploading = false
+    @Published var uploadError: String?
 
     private let apiService = APIService.shared
 
@@ -232,17 +234,23 @@ class PostViewModel: ObservableObject {
         guard let selectedImage = selectedImage else { return }
         
         do {
-            // In a real app, you would upload the image to your server/S3 and get back a URL
-            // For now, we'll simulate this with a placeholder URL
-            let imageData = try await selectedImage.loadTransferable(type: Data.self)
-            
-            if imageData != nil {
-                // Simulate image upload - in real app, upload to S3 or similar
-                imageURL = "https://placeholder.image.url/\(UUID().uuidString).jpg"
+            guard let imageData = try await selectedImage.loadTransferable(type: Data.self) else {
+                return
             }
+            isUploading = true
+            defer { isUploading = false }
             
+            let fileName = selectedImage.itemIdentifier.uuidString + ".jpg"
+            let response = try await APIService.shared.uploadImage(
+                imageData,
+                fileName: fileName,
+                mimeType: "image/jpeg"
+            )
+            imageURL = response.url
         } catch {
-            print("Error processing image: \(error)")
+            print("Error uploading image: \(error)")
+            HapticManager.notification(.error)
+            uploadError = "Image upload failed. Check your connection and try again."
         }
     }
 }

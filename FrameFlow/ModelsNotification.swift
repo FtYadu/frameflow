@@ -80,9 +80,20 @@ enum NotificationType: String, CaseIterable {
 
 // MARK: - Mark as Read Request
 struct MarkNotificationReadRequest: Codable {
-    let isRead: Bool = true
-    
+    let isRead: Bool
+
+    init(isRead: Bool = true) {
+        self.isRead = isRead
+    }
+
     enum CodingKeys: String, CodingKey {
         case isRead = "is_read"
     }
+}
+
+// MARK: - Upload Response
+struct UploadResponse: Codable {
+    let url: String
+    let filename: String?
+    let size: Int?
 }

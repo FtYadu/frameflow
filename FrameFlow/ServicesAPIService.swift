@@ -439,6 +439,67 @@ extension APIService {
             body: request
         )
     }
+
+    func setNotificationRead(id: String, isRead: Bool) async throws -> AppNotification {
+        let body = MarkNotificationReadRequest(isRead: isRead)
+        return try await makeRequest(
+            endpoint: "/notifications/\(id)/read",
+            method: .PATCH,
+            body: body
+        )
+    }
+
+    func deleteNotification(id: String) async throws {
+        let _: EmptyResponse = try await makeRequest(
+            endpoint: "/notifications/\(id)",
+            method: .DELETE
+        )
+    }
+
+    // MARK: - Image Upload
+    func uploadImage(_ data: Data, fileName: String = "photo.jpg", mimeType: String = "image/jpeg") async throws -> UploadResponse {
+        guard let url = URL(string: "\(baseURL)/uploads/image") else {
+            throw APIError.invalidURL
+        }
+
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+
+        let boundary = "FrameFlow-\(UUID().uuidString)"
+        request.setValue(
+            "multipart/form-data; boundary=\(boundary)",
+            forHTTPHeaderField: "Content-Type"
+        )
+        if let token = keychain.getAuthToken() {
+            request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
+        }
+
+        var body = Data()
+        body.append("--\(boundary)\r\n".data(using: .utf8)!)
+        body.append(
+            "Content-Disposition: form-data; name=\"image\"; filename=\"\(fileName)\"\r\n"
+                .data(using: .utf8)!)
+        body.append("Content-Type: \(mimeType)\r\n\r\n".data(using: .utf8)!)
+        body.append(data)
+        body.append("\r\n--\(boundary)--\r\n".data(using: .utf8)!)
+
+        let (responseData, response) = try await session.upload(for: request, from: body)
+        guard let httpResponse = response as? HTTPURLResponse else {
+            throw APIError.networkError
+        }
+        guard 200...299 ~= httpResponse.statusCode else {
+            if httpResponse.statusCode == 401 {
+                throw APIError.unauthorized
+            }
+            throw APIError.serverError("Upload failed (\(httpResponse.statusCode))")
+        }
+        do {
+            return try JSONDecoder().decode(UploadResponse.self, from: responseData)
+        } catch {
+            print("Upload decoding error: \(error)")
+            throw APIError.decodingError
+        }
+    }
 }
 
 // MARK: - Helper Types

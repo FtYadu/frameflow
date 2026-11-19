@@ -68,41 +68,64 @@ class NotificationsViewModel: ObservableObject {
 
     // MARK: - Mark As Unread
     func markAsUnread(_ notification: AppNotification) async {
-        // Note: This method would need a corresponding API endpoint
-        // For now, we'll just update locally as a placeholder
-        if let index = notifications.firstIndex(where: { $0.id == notification.id }) {
-            // Create updated notification with isRead = false
-            var updatedNotification = notification
-            // Since AppNotification properties are let, we need to create a new instance
-            // For now, just provide feedback that the feature needs backend support
-            print("Mark as unread requires backend API implementation")
+        do {
+            let updatedNotification = try await apiService.setNotificationRead(
+                id: notification.id,
+                isRead: false
+            )
+
+            if let index = notifications.firstIndex(where: { $0.id == notification.id }) {
+                notifications[index] = updatedNotification
+            }
+
             HapticManager.impact(.light)
+        } catch {
+            print("Error marking notification as unread: \(error)")
+            HapticManager.notification(.error)
         }
     }
 
     // MARK: - Delete Notification
     func delete(_ notification: AppNotification) async {
-        // Note: This method would need a corresponding API endpoint
-        // For now, we'll remove it locally
-        notifications.removeAll { $0.id == notification.id }
-        HapticManager.impact(.medium)
+        do {
+            try await apiService.deleteNotification(id: notification.id)
+            notifications.removeAll { $0.id == notification.id }
+            HapticManager.impact(.medium)
+        } catch {
+            print("Error deleting notification: \(error)")
+            HapticManager.notification(.error)
+        }
     }
 
     // MARK: - Mark All As Read
     func markAllAsRead() async {
-        // Mark all unread notifications as read
         let unreadNotifications = notifications.filter { !$0.isRead }
+        guard !unreadNotifications.isEmpty else { return }
 
-        for notification in unreadNotifications {
-            await markAsRead(notification)
+        await withTaskGroup(of: Void.self) { group in
+            for notification in unreadNotifications {
+                group.addTask {
+                    _ = try? await self.apiService.markNotificationAsRead(id: notification.id)
+                }
+            }
         }
-
+        await refreshNotifications()
         HapticManager.notification(.success)
     }
 
     // MARK: - Clear All Read Notifications
     func clearAllRead() async {
-        notifications.removeAll { $0.isRead }
+        let readNotifications = notifications.filter { $0.isRead }
+        guard !readNotifications.isEmpty else { return }
+
+        await withTaskGroup(of: Void.self) { group in
+            for notification in readNotifications {
+                group.addTask {
+                    _ = try? await self.apiService.deleteNotification(id: notification.id)
+                }
+            }
+        }
+        await refreshNotifications()
         HapticManager.impact(.medium)
     }
 }

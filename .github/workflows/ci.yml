@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [main, mainsite]
+  pull_request:
+    branches: [main, mainsite]
+
+jobs:
+  backend:
+    name: Backend e2e (Node + Postgres)
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:18
+        env:
+          POSTGRES_USER: ubuntu
+          POSTGRES_PASSWORD: ubuntu
+          POSTGRES_DB: frameflow
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: backend/package-lock.json
+      - run: npm ci
+      - run: npm test
+        env:
+          DATABASE_URL: postgres://ubuntu:ubuntu@localhost:5432/frameflow
+
+  ios:
+    name: iOS build (Xcode)
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build FrameFlow scheme
+        run: |
+          xcodebuild -version
+          xcodebuild -project FrameFlow.xcodeproj -scheme FrameFlow -destination 'generic/platform=iOS Simulator' build
