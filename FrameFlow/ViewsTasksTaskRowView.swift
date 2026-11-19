@@ -11,6 +11,11 @@ struct TaskRowView: View {
     let task: AgentTask
     let onApprove: (Bool) async -> Void
     
+    init(task: AgentTask, onApprove: @escaping (Bool) async -> Void) {
+        self.task = task
+        self.onApprove = onApprove
+    }
+    
     @State private var isProcessing = false
     
     var body: some View {

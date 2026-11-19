@@ -12,6 +12,13 @@ struct StatsCard: View {
     let value: String
     let icon: String
     let color: Color
+
+    init(title: String, value: String, icon: String, color: Color) {
+        self.title = title
+        self.value = value
+        self.icon = icon
+        self.color = color
+    }
     
     var body: some View {
         VStack(alignment: .leading, spacing: AppSpacing.md) {

@@ -12,6 +12,12 @@ struct AgentCardView: View {
     let onToggle: () async -> Void
     let onTrigger: (String) async -> Void
     
+    init(agent: Agent, onToggle: @escaping () async -> Void, onTrigger: @escaping (String) async -> Void) {
+        self.agent = agent
+        self.onToggle = onToggle
+        self.onTrigger = onTrigger
+    }
+    
     @State private var isToggling = false
     
     var body: some View {

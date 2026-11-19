@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 
 // MARK: - AI Provider Enum
-enum AIProvider: String, CaseIterable {
+enum AIProvider: String, Codable, CaseIterable {
     case anthropic = "anthropic"
     case openai = "openai" 
     case google = "google"
